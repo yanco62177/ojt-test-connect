@@ -1,0 +1,31 @@
+.pix{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.hero{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+    width: 100%;
+}
+.hero h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: green;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: green;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
